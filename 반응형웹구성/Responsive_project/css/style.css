@@ -1,0 +1,16 @@
+/* 레이아웃 */
+#header{background:url(../img/header_bg.jpg) repeat-x center top ;}
+
+/* 컨테이너-가운데로 정렬시키는 용도 */
+.container{width: 1200px;margin: 0 auto;background: rgba(0,0,0,0.3);}
+
+/* 헤더 클래스는 그냥 편의상 임시로 높이를 줘본것 */
+.header{height: 327px;}
+.header .header-menu{text-align: right;}
+.header .header-menu a{color:#fff;padding: 8px 0px 6px 10px; display: inline-block;transition: color 0.3s ease; font-family: 'Abel', sans-serif;}
+.header-menu a:hover{color:#ccc;}
+
+@media (max-width:1220px){
+    .container{width: 100%;}
+    .row{padding: 0px 15px;}
+}
