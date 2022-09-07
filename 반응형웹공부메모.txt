@@ -5,7 +5,7 @@ aside태그:웹페이지의 메이컨테츠와 관련된 사이드정보
 section:주제별 그룹 컨텐츠섹션-h1태그등이 제목태그 포함되야한다
 footer:사이트와 관련된 정보를 포함-address요소가 포함될 수 있다
 
-+aticle태그:포럼,신문기사,잡지,블로그 항목 게시판 글 등 컨텐츠의 독립적인 항목을 나타낸다
++article태그:포럼,신문기사,잡지,블로그 항목 게시판 글 등 컨텐츠의 독립적인 항목을 나타낸다
 
 반응형웹에서는 되도록이면 스크롤바가 안생기도록 화면사이즈를 조절해야한다
 
@@ -34,3 +34,19 @@ box-shadow: x축 y축 블러정도 그림자의거리 그림자색상 inset(그�
 따라서 hover될때에 해당 box-shadow를 주도록 하고
 원래 태그에서는 transition: box-shadow 0.25s ease-in-out
 이런식 가능
+
+<가운데정렬할수있는 방법>
+position:absolute 
+left:50%
+transform:translateX(-50%)
+이렇게 하면 가운데 정렬이 가능한 방법이다
+물론 left:0 right:0이렇게 해도 되지만 이렇게 하면 상자가 옆으로 쭉 길어짐
+
+<border의 기본속성은 대각선으로 네방향이 나뉨>
+삼각형 만들기
+border-top:10px solid 색상
+border-right:10px solid transparent
+border-left:10px solid tranparent
+
+http://uxuiz.cafe24.com/wp/archives/4619
+
